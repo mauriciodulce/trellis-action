@@ -1,4 +1,4 @@
-name: 'Trellis Deploy'
+name: 'Trellis Deploy -  Mauriciodulce'
 description: |
   Deploy Trellis, Bedrock and Sage(optional) via Github Actions
 branding:
@@ -54,7 +54,7 @@ inputs:
       required: false
 runs:
   using: 'docker'
-  image: 'docker://steenbergendesign/github-action-trellis:latest'
+  image: 'docker://mauriciodulcce/github-action-trellis:latest'
   env:
     ANSIBLE_HOST_KEY_CHECKING: false
     ANSIBLE_STRATEGY_PLUGINS: /usr/lib/python3.6/site-packages/ansible_mitogen/plugins/strategy
